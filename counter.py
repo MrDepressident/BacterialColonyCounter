@@ -102,7 +102,7 @@ def detect_colonies_in_circle(binary_img, mask):
 
 def main():
     # Path to the image file
-    image_path = "C:/Users/dimol/Downloads/plate2.jpg"  # Replace with your image file path
+    image_path = "images/plate1.jpg"  # Replace with your image file path
 
     # Load and preprocess the image
     img = load_image(image_path)
