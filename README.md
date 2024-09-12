@@ -1,11 +1,11 @@
-Prerequisites
+> Prerequisites
 
 This project was built on Python 3.11 with the following requirements:
 
 numpy==2.0.0
 opencv-python==4.10.0.84
 
-Usage
+> Usage
 Once you have a local copy of the repository, place images of the agar plates in the images/ directory
 
 To run the script, you can use the following call to main:
@@ -25,7 +25,9 @@ To run the script, you can use the following call to main:
     colonies = detect_colonies_in_circle(binary_img, mask)
 
     # Count and display the results
-    count_and_display_colonies(img, colonies)```
+    count_and_display_colonies(img, colonies)
+```
+
 
 Once you have run the script, a window will appear for you to interact with. It will ask you to adjust the coordinates of the circle and its radius.
 
