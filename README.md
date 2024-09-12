@@ -7,6 +7,7 @@ numpy==2.0.0
 opencv-python==4.10.0.84
 
 > Usage
+
 Once you have a local copy of the repository, place images of the agar plates in the images/ directory
 
 To run the script, you can use the following call to main:
