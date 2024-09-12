@@ -10,7 +10,7 @@ Once you have a local copy of the repository, place images of the agar plates in
 
 To run the script, you can use the following call to main:
 
-def main():
+`def main():
     # Path to the image file
     image_path = "images/plate1.jpg"  # Replace with your image file path
 
@@ -25,7 +25,7 @@ def main():
     colonies = detect_colonies_in_circle(binary_img, mask)
 
     # Count and display the results
-    count_and_display_colonies(img, colonies)
+    count_and_display_colonies(img, colonies)`
 
 Once you have run the script, a window will appear for you to interact with. It will ask you to adjust the coordinates of the circle and its radius.
 
